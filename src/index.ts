@@ -24,6 +24,6 @@ app.use(expressLogger);
 app.use('/api', apiRouter);
 
 app.listen(PORT, () => {
-  logger.info(`Server listening on ${PORT}`);
+  logger.info(`🚀 Server ready at http://localhost:${PORT}/`);
   logger.level = logLevel;
 });
