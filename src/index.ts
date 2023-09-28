@@ -15,7 +15,7 @@ app.use(expressLogger);
 
 app.use('/health', (_req, res) => {
   res.status(200).send({
-    name: 'lifion-generic-entity-viewer',
+    name: 'typescript-service-template',
     message: 'Service is running',
   });
 });
