@@ -3,10 +3,7 @@
   "editor.formatOnSave": true,
   "editor.detectIndentation": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "[prisma]": {
-    "editor.defaultFormatter": "Prisma.prisma"
+    "source.fixAll.eslint": "explicit"
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
